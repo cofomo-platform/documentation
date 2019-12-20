@@ -26,7 +26,7 @@ pipeline {
             steps {
                 // Copy all documentation snippets to nginx folder
                 sh "cp -r ./target/generated-docs/ ../DOCS/"
-                sh "docker cp jenkins:/var/jenkins_home/workspace/DOCS/ /var/www/html/"
+                sh "docker cp jenkins:/var/jenkins_home/workspace/DOCS /var/www/html"
             }
         }  
     }
