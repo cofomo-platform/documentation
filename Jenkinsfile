@@ -16,7 +16,7 @@ pipeline {
         stage('Build Maven') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/cofomo-platform/discovery'
+                git 'https://github.com/cofomo-platform/documentation'
 
                 // Run Maven
                 sh "mvn clean prepare-package"
