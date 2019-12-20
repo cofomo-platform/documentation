@@ -42,7 +42,6 @@
 						<configuration>
 							<backend>html</backend>
 							<doctype>book</doctype>
-							<outputDirectory>/var/www/html</outputDirectory>
 							<sourceHighlighter>highlightjs</sourceHighlighter>
 						</configuration>
 					</execution>
