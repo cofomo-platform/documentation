@@ -29,4 +29,15 @@ pipeline {
             }
         }  
     }
+    post { 
+    	// Send success message to Slack
+        success { 
+            slackSend color: "good", message: "Documentation successfully updated"
+        }
+        // Send failure message to Slack
+        failure {
+            slackSend color: "bad", message: "Failure in documentation update"
+        }
+        
+    }
 }

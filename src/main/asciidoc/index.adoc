@@ -4,18 +4,18 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 :icons: font
 :source-highlighter: highlightjs
 :toc: left
-:toclevels: 4
+:toclevels: 3
 :sectnums:
-:sectnumlevels: 4
+:sectnumlevels: 3
 :snippets: ../../../target/generated-snippets
 
 == Introduction
 
 This is the API documentation of the COFOMO-project. Let´s work together on open markets!
 
-== Exploration API Documentation
+== Exploration API
 include::exploration.adoc[tags=globalDoc]
 
-== Identity API Documentation
+== Identity API
 include::identity.adoc[tags=globalDoc]
 
