@@ -6,5 +6,5 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 :toc: left
 :sectnums:
 
-include::exploration.adoc[]
+include::exploration.adoc[tags=globalDoc]
 

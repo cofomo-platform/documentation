@@ -19,7 +19,7 @@ pipeline {
                 git 'https://github.com/cofomo-platform/documentation'
 
                 // Run Maven
-                sh "mvn -X clean prepare-package"
+                sh "mvn prepare-package"
             }
         }
         stage('Copy generated documentation') {
