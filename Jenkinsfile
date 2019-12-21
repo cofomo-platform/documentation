@@ -9,7 +9,6 @@ pipeline {
     stages {
      stage('Copy source files') {
             steps {
-                sh "mkdir ./target/generated-snippets"
                 sh "cp -r ../DOCS/generated-snippets/. ./target/generated-snippets/"
                 sh "cp -r ../DOCS/sourcefiles/. ./src/main/asciidoc/"
             }
