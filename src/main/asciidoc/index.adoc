@@ -11,7 +11,7 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 
 This is the API documentation of the COFOMO-project. Let´s work together on open markets!
 
-image::bigpicture.jpg[align="center"]
+image::bigpicture.jpg[align="center", width=700]
 
 = Exploration Management
 include::exploration.adoc[tags=globalDoc]
