@@ -14,11 +14,9 @@ This is the API documentation of the COFOMO-Project. Let´s work together on ope
 image::bigpicture.jpg[align="center", width=700]
 
 = Exploration Management
-:!chapter-number:
 include::exploration.adoc[tags=globalDoc]
 
 = Identity Management
-:!chapter-number:
 include::identity.adoc[tags=globalDoc]
 
 = Transaction Management
