@@ -13,7 +13,7 @@ This is the API documentation of the COFOMO-project. Let´s work together on ope
 
 .The big picture
 [caption="Figure 1: "]
-image::images/bigpicture.jpg[align="center"]
+image::bigpicture.jpg[align="center"]
 
 = Exploration Management
 include::exploration.adoc[tags=globalDoc]
