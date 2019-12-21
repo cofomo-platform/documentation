@@ -15,9 +15,10 @@ This is the API documentation of the COFOMO-project. Let´s work together on ope
 [caption="Figure 1: "]
 image::images/bigpicture.jpg[align="center"]
 
-= Exploration API
+= Exploration Management
 include::exploration.adoc[tags=globalDoc]
 
-= Identity API
+= Identity Management
 include::identity.adoc[tags=globalDoc]
 
+= Transaction Management
