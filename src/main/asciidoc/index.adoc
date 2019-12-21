@@ -1,21 +1,19 @@
-= COFOMO API Documentation
+= COFOMO - Cooperation for Open Mobility Markets
 COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 0.0.1, {docdatetime}
 :icons: font
 :source-highlighter: highlightjs
 :toc: left
-:toclevels: 3
 :sectnums:
-:sectnumlevels: 3
 :snippets: ../../../target/generated-snippets
 
-== Introduction
+= Introduction to the COFOMO Project
 
 This is the API documentation of the COFOMO-project. Let´s work together on open markets!
 
-== Exploration API
+= Exploration API
 include::exploration.adoc[tags=globalDoc]
 
-== Identity API
+= Identity API
 include::identity.adoc[tags=globalDoc]
 
