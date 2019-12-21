@@ -6,5 +6,7 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 :toc: left
 :sectnums:
 
+:snippets: ./target/generated-snippets
+
 include::exploration.adoc[tags=globalDoc]
 
