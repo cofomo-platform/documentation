@@ -10,7 +10,8 @@ pipeline {
      stage('Copy source files') {
             steps {
                 sh "mkdir ./target/generated-snippets"
-                sh "cp -r ../DOCS/. ./target/generated-snippets"
+                sh "cp -r ../DOCS/generated-snippets/. ./target/generated-snippets/"
+                sh "cp -r ../DOCS/sourcefiles/. ./src/main/asciidoc/"
             }
         }
         stage('Build Maven') {
@@ -25,8 +26,7 @@ pipeline {
         stage('Copy generated documentation') {
             steps {
                 // Copy all documentation snippets to nginx folder
-                sh "cp -r ./target/generated-docs/ ../DOCS/"
-                sh "docker cp jenkins:/var/jenkins_home/workspace/DOCS /var/www/html"
+                sh "cp -r ./target/generated-docs/. ../DOCS/"
             }
         }  
     }
