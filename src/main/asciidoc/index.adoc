@@ -1,12 +1,18 @@
-= Discovery API Documentation
+= COFOMO API Documentation
 COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 0.0.1, 16.12.2019
 :icons: font
 :source-highlighter: highlightjs
 :toc: left
+:toclevels: 4
 :sectnums:
-
+:sectnumlevels: 4
 :snippets: ../../../target/generated-snippets
 
+== Introduction
+
+This is the API documentation of the COFOMO-project. Let´s work together on open markets!
+
+== Exploration API Documentation
 include::exploration.adoc[tags=globalDoc]
 

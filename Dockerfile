@@ -3,10 +3,10 @@ FROM openjdk:13-jdk-alpine
 ARG version
 ENV version=$version
 
-COPY target/discovery-$version.jar /usr/spring/discovery.jar
+COPY target/documentation-$version.jar /usr/spring/documentation.jar
 
 WORKDIR /usr/spring
 
-RUN sh -c 'touch discovery.jar'
+RUN sh -c 'touch documentation.jar'
 
-ENTRYPOINT java -jar -Dspring.profiles.active=prod discovery.jar
+ENTRYPOINT java -jar -Dspring.profiles.active=prod documentation.jar
