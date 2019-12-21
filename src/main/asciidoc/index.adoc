@@ -1,6 +1,6 @@
 = COFOMO API Documentation
 COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
-0.0.1, 16.12.2019
+0.0.1, {docdatetime}
 :icons: font
 :source-highlighter: highlightjs
 :toc: left
@@ -15,4 +15,7 @@ This is the API documentation of the COFOMO-project. Let´s work together on ope
 
 == Exploration API Documentation
 include::exploration.adoc[tags=globalDoc]
+
+== Identity API Documentation
+include::identity.adoc[tags=globalDoc]
 
