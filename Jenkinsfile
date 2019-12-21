@@ -26,6 +26,7 @@ pipeline {
             steps {
                 // Copy all documentation snippets to nginx folder
                 sh "cp -r ./target/generated-docs/. ../DOCS/"
+                sh "cp ./src/resources/images/. ../DOCS/images" 
             }
         }  
     }

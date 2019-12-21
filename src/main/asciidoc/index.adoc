@@ -7,9 +7,13 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 :sectnums:
 :snippets: ../../../target/generated-snippets
 
-= Introduction to the COFOMO Project
+= Introduction
 
 This is the API documentation of the COFOMO-project. Let´s work together on open markets!
+
+.The big picture
+[caption="Figure 1: "]
+image::images/bigpicture.jpg[align="center"]
 
 = Exploration API
 include::exploration.adoc[tags=globalDoc]
