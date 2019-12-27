@@ -20,3 +20,4 @@ include::exploration.adoc[tags=globalDoc]
 include::identity.adoc[tags=globalDoc]
 
 = Transaction Management
+include::provider.adoc[tags=globalDoc]
