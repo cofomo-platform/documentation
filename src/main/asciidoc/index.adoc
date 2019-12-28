@@ -15,13 +15,13 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 </style>
 ++++
 
-This is the API documentation of the COFOMO-Project. COFOMO was created with the intention to implement an open mobility market in order to protect the competition against the rise of monopolys. Furthermore it aims for the protection of data privacy and sovereignty.
-
-Let´s work together on open markets!
+This is the API documentation of the COFOMO-Project. COFOMO was created with the intention to implement an open mobility market in order to protect the competition against the rise of monopolys. Furthermore it aims for the protection of data privacy and data sovereignty.
 
 = Introduction
 
-.Platform modules of cofomo
+COFOMO is build around the division of domain-specific architecture modules. In the following architecture diagram the four main modules are displayed which are Exploration-Management, Identity-Management, Transaction-Managaement and Data-Access-Management. Each of those modules is represented by open source projects which will be described in this documentation.
+
+.Platform architecture modules of cofomo
 [caption="Figure 1: "]
 image::bigpicture.jpg[align="center", width=700]
 
