@@ -33,7 +33,7 @@ pipeline {
     post { 
     	// Send success message to Slack
         success { 
-            slackSend color: "good", message: "Documentation successfully updated"
+            slackSend color: "good", message: "Documentation successfully updated deployed in ${currentBuild.durationString}.\nGo to https://provider.cofomo.io to see the result."
         }
         // Send failure message to Slack
         failure {
