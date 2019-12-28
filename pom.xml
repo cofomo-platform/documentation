@@ -54,6 +54,7 @@
 						<configuration>
 							<backend>pdf</backend>
 							<sourceHighlighter>coderay</sourceHighlighter>
+							<outputFile>cofomo.pdf</outputFile>
 						</configuration>
 					</execution>
 				</executions>
