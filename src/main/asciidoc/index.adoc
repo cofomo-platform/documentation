@@ -7,7 +7,16 @@ COFOMO-Project, Ilko Hoffmann<ilkohoffmann@posteo.net>
 :sectnums:
 :snippets: ../../../target/generated-snippets
 
+++++
+<style>
+  .imageblock > .title {
+    text-align: inherit;
+  }
+</style>
+++++
+
 This is the API documentation of the COFOMO-Project. COFOMO was created with the intention to implement an open mobility market in order to protect the competition against the rise of monopolys. Furthermore it aims for the protection of data privacy and sovereignty. Let´s work together on open markets!
+
 = Introduction
 
 .Platform modules of Cofomo
