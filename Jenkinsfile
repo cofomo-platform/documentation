@@ -15,7 +15,8 @@ def cancelPreviousBuilds() {
                     Result.ABORTED,
                     new CauseOfInterruption.UserInterruption("Aborted by #${currentBuild.number}")
                 )
-            println("Aborted previously running build #${build.number}")            
+            println("Aborted previously running build #${build.number}") 
+            currentBuild.result = "ABORTED by #${currentBuild.number}"        
         }
     }
 }
@@ -66,7 +67,7 @@ pipeline {
         }
         // Send failure message to Slack
         failure {
-            slackSend color: "bad", message: "Failure in documentation update"
+            slackSend color: "bad", message: "Documentation deploymnent: ${currentBuild.reason}"
         }
         
     }
