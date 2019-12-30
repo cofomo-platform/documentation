@@ -35,7 +35,7 @@ This is the API documentation of the COFOMO-Project. COFOMO was created with the
 
 |icon:github[] GitHub
 |link:https://github.com/cofomo-platform[https://github.com/cofomo-platform^]
-|Home of the COFOMO open source projects
+|Home of the open source projects
 
 |icon:github[] GitHub
 |link:https://github.com/cofomo-platform/discovery[https://github.com/cofomo-platform/discovery^]
@@ -47,7 +47,7 @@ This is the API documentation of the COFOMO-Project. COFOMO was created with the
 
 |icon:github[] GitHub
 |link:https://github.com/cofomo-platform/provider[https://github.com/cofomo-platform/provider^]
-|Repository of the authority project
+|Repository of the provider project
 
 |icon:github[] GitHub
 |link:https://github.com/cofomo-platform/commons[https://github.com/cofomo-platform/commons^]
